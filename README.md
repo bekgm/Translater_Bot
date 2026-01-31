@@ -1,4 +1,4 @@
-# Translater Bot
+# Translator Bot
 
 Telegram бот для перевода сообщений на выбранный язык с помощью `deep-translator`.
 
