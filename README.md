@@ -1,31 +1,31 @@
 # Translator Bot
 
-Telegram бот для перевода сообщений на выбранный язык с помощью `deep-translator`.
+Telegram bot for translating messages into the selected language using `deep-translator`.
 
-## Возможности
+## Features
 
-- Команды `/start` и `/change`
-- Перевод входящих сообщений
-- Поддерживаемые языки: `kk`, `ru`, `en`, `de`, `uz`, `zh-CN`, `ko`, `es`
+- Commands `/start` and `/change`
+- Translates incoming messages
+- Supported languages: `kk`, `ru`, `en`, `de`, `uz`, `zh-CN`, `ko`, `es`
 
-## Быстрый старт
+## Quick start
 
-1. Установите зависимости:
+1. Install dependencies:
    ```bash
    pip install -r requirements.txt
    ```
-2. Установите токен бота:
+2. Set the bot token:
    ```bash
-   export BOT_TOKEN="ваш_telegram_токен"
+   export BOT_TOKEN="your_telegram_token"
    ```
-3. Запустите бота:
+3. Run the bot:
    ```bash
    python bot.py
    ```
 
-## Использование
+## Usage
 
-- `/start` — приветствие и инструкция
-- `/change` — выбор языка перевода
+- `/start` — greeting and instructions
+- `/change` — choose the translation language
 
-По умолчанию перевод выполняется на английский (`en`), пока пользователь не выберет язык.
+By default, translations are done in English (`en`) until the user selects a language.
